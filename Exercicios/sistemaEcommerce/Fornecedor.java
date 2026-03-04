@@ -1,9 +1,9 @@
 package Exercicios.sistemaEcommerce;
 
-public class fornecedor {
+public class Fornecedor {
     private String nome;
 
-    public fornecedor(String nome) {
+    public Fornecedor(String nome) {
         this.nome = nome;
     }
     public String getNome() {

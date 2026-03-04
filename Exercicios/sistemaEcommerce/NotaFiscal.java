@@ -1,9 +1,9 @@
 package Exercicios.sistemaEcommerce;
 
-public class Notafiscal {
+public class NotaFiscal {
     private String numero;
 
-    public Notafiscal(String numero) {
+    public NotaFiscal(String numero) {
         this.numero = numero;
     }
     public String getNumero() {

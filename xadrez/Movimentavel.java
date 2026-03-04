@@ -1,0 +1,5 @@
+package xadrez;
+
+public interface Movimentavel {
+    void mover(Posicao origem, Posicao destino);
+}
