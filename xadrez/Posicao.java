@@ -1,23 +1,23 @@
 package xadrez;
 
 public class Posicao {
-    private String linha;
-    private String coluna;
+    private int  linha;
+    private int coluna;
 
-    public Posicao(String linha, String coluna) {
+    public Posicao(int linha, int coluna) {
         this.linha = linha;
         this.coluna = coluna;
     }
-    public String getLinha() {
+    public int getLinha() {
         return linha;
     }
-    public void setLinha(String linha) {
+    public void setLinha(int linha) {
         this.linha = linha;
     }
-    public String getColuna() {
+    public int getColuna() {
         return coluna;
     }
-    public void setColuna(String coluna) {
+    public void setColuna(int coluna) {
         this.coluna = coluna;
     }
 }

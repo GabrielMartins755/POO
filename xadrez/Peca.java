@@ -1,9 +1,9 @@
 package xadrez;
 public class Peca {
     private String cor;
-    private String posicao;
+    private Posicao posicao;
 
-    public Peca(String cor, String posicao) {
+    public Peca(String cor, Posicao posicao) {
         this.cor = cor;
         this.posicao = posicao;
     }
@@ -16,11 +16,11 @@ public class Peca {
         this.cor = cor;
     }
 
-    public String getPosicao() {
+    public Posicao getPosicao() {
         return posicao;
     }
 
-    public void setPosicao(String posicao) {
+    public void setPosicao(Posicao posicao) {
         this.posicao = posicao;
     }
 }
