@@ -16,7 +16,7 @@ public class Main {
         IngressoVIP vip = new IngressoVIP(100);
         vip.setValor(100);
         vip.setValorAdicional(50);
-        vip.setValorTotal(vip.calcularValorTotal()); // recalcula corretamente
+        vip.setValorTotal(vip.calcularValorTotal());
 
         System.out.println("=== INGRESSO VIP ===");
         System.out.println("Valor base: " + vip.getValor());
@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println("=== CAMAROTE INFERIOR ===");
         System.out.println("Valor: " + camInf.getValor());
-        camInf.imprimir(); // imprime localização
+        camInf.imprimir(); 
         System.out.println();
 
         // Camarote VIP
@@ -44,6 +44,6 @@ public class Main {
         System.out.println("=== CAMAROTE VIP ===");
         System.out.println("Valor base: " + camVIP.getValor());
         System.out.println("Valor adicional: " + camVIP.getValorAdicional());
-        camVIP.imprimir(); // imprime valor total + localização
+        camVIP.imprimir();
     }
 }
