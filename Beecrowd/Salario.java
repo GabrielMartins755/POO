@@ -42,7 +42,6 @@ class Funcionario {
         this.horas = horas;
     }
 
-
     public int getNum() {
         return num;
     }

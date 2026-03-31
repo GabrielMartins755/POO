@@ -27,6 +27,18 @@ class Vendedor {
         this.vendas = vendas;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setFixo(double fixo) {
+        this.fixo = fixo;
+    }
+
+    public void setVendas(double vendas) {
+        this.vendas = vendas;
+    }
+
     public String getNome() {
         return nome;
     }

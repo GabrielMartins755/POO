@@ -20,7 +20,6 @@ public class Gasto {
 }
 
 class Viagem {
-
     private int tempo;
     private int velocidade;
 

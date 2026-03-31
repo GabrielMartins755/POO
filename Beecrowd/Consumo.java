@@ -18,10 +18,18 @@ public class Consumo {
 class Carro {
     private int distancia;
     private Double combustivel;
-
+    
     public Carro(int distancia, Double combustivel) {
         this.combustivel = combustivel;
         this.distancia = distancia;
+    }
+
+    public void setDistancia(int distancia) {
+        this.distancia = distancia;
+    }
+
+    public void setCombustivel(Double combustivel) {
+        this.combustivel = combustivel;
     }
     
     public int getDistancia() {
