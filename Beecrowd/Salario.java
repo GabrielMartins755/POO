@@ -23,12 +23,25 @@ class Funcionario {
     private int num;
     private double salario;
     private int horas;
-
+    
     public Funcionario(int num, double salario, int horas) {
         this.num = num;
         this.salario = salario;
         this.horas = horas;
     }
+
+    public void setNum(int num) {
+        this.num = num;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public void setHoras(int horas) {
+        this.horas = horas;
+    }
+
 
     public int getNum() {
         return num;

@@ -1,3 +1,4 @@
+package Beecrowd;
 
 import java.util.Scanner;
 
@@ -25,6 +26,14 @@ class Viagem {
 
     public Viagem(int tempo, int velocidade) {
         this.tempo = tempo;
+        this.velocidade = velocidade;
+    }
+
+    public void setTempo(int tempo) {
+        this.tempo = tempo;
+    }
+
+    public void setVelocidade(int velocidade) {
         this.velocidade = velocidade;
     }
 
